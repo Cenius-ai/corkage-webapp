@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corkage"
+version = "1.0.0"
+description = "Single-file cellar log: cork condition and extraction notes, cellar temperature and humidity, soak and decant reminders"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+corkage = "corkage:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools]
+py-modules = ["corkage"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

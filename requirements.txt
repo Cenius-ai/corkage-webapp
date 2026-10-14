@@ -1,0 +1,3 @@
+# Corkage itself needs nothing but the Python standard library.
+# The test runner is the only declared dependency, and only for `pytest`.
+pytest>=8.0
