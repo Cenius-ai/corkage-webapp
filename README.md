@@ -29,7 +29,7 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 ## Architecture
 
-Folder layout: `tests/`. The setup script (`install.sh`) installs runtime dependencies and loads a starter dataset so the app is immediately usable. Built in Full-stack app (21 files). Full setup details: [`INSTALL.md`](INSTALL.md).
+Folder layout: `tests/`. The setup script (`install.sh`) installs runtime dependencies and loads a starter dataset so the app is immediately usable. Built in Full-stack app (12 files). Full setup details: [`INSTALL.md`](INSTALL.md).
 
 ## Quick start
 
